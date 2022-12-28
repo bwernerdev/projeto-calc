@@ -24,6 +24,9 @@ function getNumber(number) {
     visorHtml.innerHTML=num1+operator+num2;
 }
 
+function setResult(result) {
+    visorHtml.innerHTML=result;
+}
 
 function calculate() {
     if (operator === '+') {
@@ -38,7 +41,5 @@ function calculate() {
     setResult(result)
 }
 
-function setResult(result) {
-    visorHtml.innerHTML=result;
-}
+
 
