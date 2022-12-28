@@ -11,7 +11,7 @@ body {
 table {
     border: 2px solid black;
     width: 600px;
-    background-color: white;
+    background-color: rgb(26, 24, 24);
     font-size: 15px;
     border-radius: 5px;
 }
@@ -19,6 +19,10 @@ table {
 table thead {
     height: 100px;
     width: 100px;
+}
+
+table tbody {
+    background-color: gray;
 }
 
 table th, td {
