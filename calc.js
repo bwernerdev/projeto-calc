@@ -35,6 +35,10 @@ function calculate() {
     } else {
         result = Number(num1) / Number(num2)
     }
+    setResult(result)
+}
+
+function setResult(result) {
     visorHtml.innerHTML=result;
 }
 
