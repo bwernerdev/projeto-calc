@@ -1,6 +1,7 @@
 let num1 = '', num2 = '', operator = '', result = 0
 const visorHtml = document.querySelector('.visorText')
 
+
 function getOperator(operatorParam) {
     operator = operatorParam
 }
